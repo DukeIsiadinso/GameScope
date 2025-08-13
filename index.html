@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALL OF DUTY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo-image"><img src="./image folder/cod image logo.webp"></div>
+            <ul>
+                <li class="dropdown">
+                    <a href="#">MENU ▼</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">FULL REVIEW</a></li>
+                        <li><a href="#">GAME MECHANICS</a></li>
+                        <li><a href="#">COMMUNITY</a></li>
+                        <li><a href="#">NEWS</a></li>
+                        <li><a href="#">WIKI</a></li>
+                        <li><a href="#">SYSTEM QUALIFICATIONS</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <a href="./index.html">HOME</a>
+            <a href="./about-us.html">ABOUT US</a>
+        </nav>
+
+        <!-- First video section -->
+        <section class="hero">
+            <video autoplay loop muted id="cod-vid">
+                <source src="./video folder/cod-vid.mp4" type="video/mp4">
+            </video>
+            <button class="mute-btn" id="mute1">Unmute 🔊</button>
+
+            <div class="cod-title">
+                <span class="call">CALL</span>
+                <span class="of">OF</span>
+                <span class="duty">DUTY</span>
+                <div class="black-ops">
+                    BLACK OPS <span class="six">6</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Second video section -->
+        <div class="container-2">
+            <video autoplay loop muted id="cod-vid2">
+                <source src="./video folder/cod-vid2.mp4">
+            </video>
+            <button class="mute-btn" id="mute2">Unmute 🔊</button>
+
+            <div class="overlay">
+                <div class="overlay-left">
+                    <h1>A RECORD-BREAKING<br>WAR GAME</h1>
+                </div>
+                <div class="overlay-right">
+                    <p><strong>Fastest-Selling COD Title</strong></p>
+                    <a href="records.html" class="records-link">See More Records →</a>
+                </div>
+            </div>
+        </div>
+        <div class="container-3">
+            <img src="./image folder/first image for code.webp">
+        </div>
+    </div>
+
+    <script>
+        // First video toggle
+        const vid1 = document.getElementById('cod-vid');
+        const btn1 = document.getElementById('mute1');
+        let mute1State = true;
+
+        btn1.addEventListener('click', () => {
+            mute1State = !mute1State;
+            vid1.muted = mute1State;
+            btn1.textContent = mute1State ? 'Unmute 🔊' : 'Mute 🔇';
+        });
+
+        // Second video toggle
+        const vid2 = document.getElementById('cod-vid2');
+        const btn2 = document.getElementById('mute2');
+        let mute2State = true;
+
+        btn2.addEventListener('click', () => {
+            mute2State = !mute2State;
+            vid2.muted = mute2State;
+            btn2.textContent = mute2State ? 'Unmute 🔊' : 'Mute 🔇';
+        });
+    </script>
+</body>
+</html>

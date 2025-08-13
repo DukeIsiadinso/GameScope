@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    background-color: black;
+    height: 150px;
+    display: flex;
+    justify-content:space-between;
+    font-weight: 200px;
+    padding: 3em;
+}
+nav ul{
+    justify-content: space-between;
+     list-style: none;
+    background: black;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li{
+      position: relative;
+}
+nav ul li a{
+       color: orangered;
+    padding: 14px 20px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: black;
+    min-width: 200px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    top: 100%;
+    left: 0;
+    flex-direction: column;
+}
+
+/* Links inside dropdown */
+.dropdown-content li a {
+    padding: 10px;
+}
+
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: white;
+}
+
+nav a{
+    text-decoration: none;
+    color: orangered;
+    padding-left: 1.5em;
+}
+nav a:hover{
+    color: white;
+}
+nav li{
+    display: flex;
+    height: 20px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+.container{
+    background-color: black;
+}
+
+ /* Common Mute Button Style */
+        .mute-btn {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            z-index: 1000;
+            transition: background 0.3s ease;
+        }
+        .mute-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Position for first video button */
+        #mute1 {
+            bottom: 15px;
+            left: 15px;
+        }
+
+        /* Position for second video button */
+        #mute2 {
+            bottom: 15px;
+            right: 15px;
+        }
+
+        /* Container-2 should be relative so the button stays inside */
+        .container-2 {
+            position: relative;
+        }
+        .hero {
+            position: relative;
+        }
+
+#cod-vid{
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+.hero video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* fills the section without stretching */
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+#cod-vid2{
+     right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+ .container-2 {
+    position: relative;
+    width: 1500px;
+    height: 600px; /* Adjust as needed */
+    overflow: hidden;
+  }
+
+  .cod-vid2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.8);
+  }
+
+  .overlay-left h2 {
+    font-size: 2rem;
+    margin: 0;
+    max-width: 300px;
+  }
+
+  .overlay-right {
+    text-align: right;
+  }
+
+  .overlay-right p {
+    margin: 0 0 10px;
+    font-size: 1.1rem;
+  }
+
+  .records-link {
+    color: white; /* gold-ish */
+    text-decoration: underline;
+    font-weight: bold;
+    transition: color 0.2s;
+  }
+
+  .records-link:hover {
+    color: #FFA500;
+  }
+
+  @media (max-width: 768px) {
+    .overlay {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .overlay-right {
+      text-align: center;
+      margin-top: 15px;
+    }
+  }
+
+
+
+
+.logo-image img{
+    border-radius: 3em;
+    height: 99px;
+}
+
+
+
+.hero video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cod-title {
+    position: absolute;
+   padding-left: 30em;
+    font-weight: bold;
+    font-family: Impact, Arial Black, sans-serif;
+    color: white;
+    line-height: 1;
+}
+
+.cod-title .call,
+.cod-title .duty {
+    font-size: 60px;
+}
+
+.cod-title .of {
+    font-size: 30px;
+    vertical-align: middle;
+    margin: 0 8px;
+}
+
+.cod-title .black-ops {
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.cod-title .six {
+    color: orange;
+    font-size: 60px;
+    font-weight: bold;
+}
