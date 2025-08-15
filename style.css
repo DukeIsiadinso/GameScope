@@ -6,11 +6,11 @@
 }
 nav{
     background-color: black;
-    height: 150px;
+    height: 168px;
     display: flex;
     justify-content:space-between;
     font-weight: 200px;
-    padding: 3em;
+    padding: 3m;
 }
 nav ul{
     justify-content: space-between;
@@ -72,7 +72,7 @@ nav li{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 100px;
+    height: 80%;
 }
 .container{
     background-color: black;
@@ -144,10 +144,15 @@ nav li{
     object-fit: cover;
 }
  .container-2 {
-    position: relative;
+      display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 80%;
+    /* position: relative;
     width: 1500px;
     height: 600px; /* Adjust as needed */
-    overflow: hidden;
+   /* overflow: hidden; */
   }
 
   .cod-vid2{
@@ -188,7 +193,7 @@ nav li{
   }
 
   .records-link {
-    color: white; /* gold-ish */
+    color: white;
     text-decoration: underline;
     font-weight: bold;
     transition: color 0.2s;
@@ -210,9 +215,6 @@ nav li{
       margin-top: 15px;
     }
   }
-
-
-
 
 .logo-image img{
     border-radius: 3em;
@@ -239,21 +241,89 @@ nav li{
 .cod-title .call,
 .cod-title .duty {
     font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .cod-title .of {
     font-size: 30px;
     vertical-align: middle;
     margin: 0 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .cod-title .black-ops {
     font-size: 50px;
     margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .cod-title .six {
     color: orange;
     font-size: 60px;
     font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.image-text{
+    color: white;
+    max-width: 450px;
+}
+.image-text h1{
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* --- Animation for navbar fade-in from top --- */
+nav {
+    animation: navSlide 1s ease-out forwards;
+}
+@keyframes navSlide {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.container-3{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    width: 100%;
+}
+.image-text2 p{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+.image-text3 p{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.image-text p{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.image-text2 h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:  bolder;
+    font-size: xx-large;
+}
+.image-text3 h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.image-text h1{
+    color: white;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}  
+
