@@ -4,4 +4,50 @@ This website has been created as a lesson project given to me from Codeville Gen
                     to this website to get basic info, in other words this website is basically like a wiki
 
 
-                         Copyright &copy;2025 Don't you DARE! steal my work
+
+
+
+<section class="hero">
+            <div class="hero-image">
+                <img src="./image folder/call of duty full review side image.webp">
+                <img src="./image folder/full review 2.webp">
+                <img src="./image folder/full review 3.jpeg">
+                <img src="./image folder/full review 4.webp">
+            </div>
+            <div class="hero-text"><h1>Call of Duty: Black Ops 6 – Full Review</h1><p>
+
+                When Treyarch and Raven Software announced Call of Duty: Black Ops 6, expectations were sky-high. Not only was it set to return to the fan-favorite Black Ops storyline, but it also promised a major shake-up to gameplay mechanics, a gripping Gulf War-era narrative, and the revival of round-based Zombies. Now that it’s here, I can confidently say—it delivers on almost every front.
+
+                The Black Ops 6 campaign is easily one of the most engaging in recent Call of Duty history. You take on the role of CIA operative “Case” during the early 1990s, tracking the terrorist group Pantheon across the globe. The missions vary between explosive Hollywood-style action set pieces and semi-open missions that give you multiple approaches to complete objectives.
+
+                Between missions, the game introduces a hub area called The Rook, where you interact with allies like Woods and Adler, upgrade gear, and take on optional side operations. This safehouse approach adds a layer of narrative immersion rarely seen in the series.
+
+                Mission highlights include a tense casino heist with stealth and hacking elements, a massive desert infiltration with sniper and vehicle options, and a psychological thriller sequence that blurs the line between reality and hallucination. The writing keeps you invested, the pacing rarely drags, and the set pieces feel genuinely fresh.</p>
+
+                <h1>Multiplayer Feels Fast and Fluid</h1>
+
+                <p>Multiplayer in Black Ops 6 is a step up from its predecessors. The new Omnimovement system allows full directional diving, sliding, and sprinting, making matches faster and more unpredictable than ever. Gunplay feels tight and responsive, with excellent weapon balance right from launch.
+
+                Maps are varied, from tight urban alleys to wide-open desert battlefields, and the game ships with a solid selection of 16 original maps. New modes like “Kill Order,” where teams hunt a high-value target, mix up the pacing, while classics like Domination and Search & Destroy return for veterans.
+
+                While a few maps can feel cramped and spawn logic sometimes falters, the overall multiplayer package is polished and satisfying.</p>
+
+                <h1>Zombies Returns to Classic Form</h1>
+
+                <p>Fans of the mode will be thrilled to see Zombies return to a traditional round-based format. Launch maps Liberty Falls and Terminus are atmospheric and packed with secrets. Liberty Falls blends small-town Americana with eerie underground labs, while Terminus turns an abandoned prison island into a horror playground.
+
+                The mode is more accessible for newcomers thanks to better tutorials and the ability to save solo runs, but it still has enough complexity to keep veteran players hooked for hours. Progression now links with multiplayer, so your time spent in Zombies still benefits your overall loadouts.
+
+                <h1>Presentation and Performance</h1>
+
+                <p>Visually, Black Ops 6 is stunning. Built on the IW 9.0 engine, environments are richly detailed, lighting feels natural, and character animations are impressively lifelike. The sound design is equally top-notch—every gunshot, explosion, and voice line adds to the immersion.
+
+                Performance is rock-solid across platforms, holding high framerates even during chaotic moments. Whether you’re on PC or console, it’s one of the best-optimized CoD games in recent memory.</p>
+
+                <h1>Verdict</h1>
+
+                <p>Call of Duty: Black Ops 6 is a return to form for the series. The campaign is gripping and varied, multiplayer is fast and fluid, and Zombies is as fun as it’s ever been. While it has minor flaws, it’s a package that offers something for every type of CoD player.</p>
+
+                <h1>Final Score: 9/10</h1> <p>– One of the best Call of Duty entries in years, and a must-play for both veterans and newcomers.</p>
+            </div>
+        </section>

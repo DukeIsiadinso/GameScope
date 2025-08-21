@@ -6,11 +6,11 @@
 }
 nav{
     background-color: black;
-    height: 168px;
+    height: 218px;
     display: flex;
     justify-content:space-between;
     font-weight: 200px;
-    padding: 3m;
+    padding: 3em;
 }
 nav ul{
     justify-content: space-between;
@@ -203,18 +203,7 @@ nav li{
     color: #FFA500;
   }
 
-  @media (max-width: 768px) {
-    .overlay {
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-    }
 
-    .overlay-right {
-      text-align: center;
-      margin-top: 15px;
-    }
-  }
 
 .logo-image img{
     border-radius: 3em;
@@ -277,16 +266,7 @@ nav li{
 nav {
     animation: navSlide 1s ease-out forwards;
 }
-@keyframes navSlide {
-    0% {
-        transform: translateY(-50px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
+
 
 .container-3{
     display: flex;
@@ -294,6 +274,29 @@ nav {
     margin: 30px;
     width: 100%;
 }
+.image-text img:hover{
+    transform: scale(1.05);
+}
+.image-text2 img:hover{
+    transform: scale(1.05);
+}
+.image-text3 img:hover{
+    transform: scale(1.05);
+}
+
+.image-text {
+width: 33.3%;
+}
+
+.image-text2 {
+    width: 33.3%;
+}
+
+.image-text3{
+    width: 33.3%;
+}
+
+
 .image-text2 p{
     color: white;
     font-family:'Times New Roman', Times, serif;
@@ -327,3 +330,27 @@ nav {
     font-size: xx-large;
 }  
 
+  @media (max-width: 768px) {
+    .overlay {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .overlay-right {
+      text-align: center;
+      margin-top: 15px;
+    }
+  }
+
+
+  @keyframes navSlide {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

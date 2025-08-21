@@ -6,11 +6,11 @@
 }
 nav{
     background-color: black;
-    height: 180px;
+    height: 230px;
     display: flex;
     justify-content:space-between;
     font-weight: 200px;
-    padding: 3m;
+    padding: 3em;
 }
 nav ul{
     justify-content: space-between;
@@ -70,6 +70,51 @@ nav li{
 nav {
     animation: navSlide 1s ease-out forwards;
 }
+
+.logo-image img{
+    border-radius: 3em;
+    height: 99px;
+}
+body{
+background-color: orange;
+}
+.title{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font: bolder;
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: italic;
+}
+.hero-text{
+    text-align: center;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+    font: bolder;
+    font-size: large;
+    font-weight: bolder;
+}
+.hero-text2{
+    text-align: center;
+}
+.hero-text3{
+    text-align: center;
+}
+
+.hero-text2 h1{
+    text-align: center;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+    font: bolder;
+    font-size: large;
+    font-weight: bolder;
+}
+.hero-text3 h1{
+    text-align: center;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+    font: bolder;
+    font-size: large;
+    font-weight: bolder;
+}
+
 @keyframes navSlide {
     0% {
         transform: translateY(-50px);
@@ -79,9 +124,4 @@ nav {
         transform: translateY(0);
         opacity: 1;
     }
-}
-
-.logo-image img{
-    border-radius: 3em;
-    height: 99px;
 }
