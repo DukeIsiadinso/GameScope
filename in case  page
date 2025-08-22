@@ -47,7 +47,32 @@ This website has been created as a lesson project given to me from Codeville Gen
                 <h1>Verdict</h1>
 
                 <p>Call of Duty: Black Ops 6 is a return to form for the series. The campaign is gripping and varied, multiplayer is fast and fluid, and Zombies is as fun as it’s ever been. While it has minor flaws, it’s a package that offers something for every type of CoD player.</p>
-
-                <h1>Final Score: 9/10</h1> <p>– One of the best Call of Duty entries in years, and a must-play for both veterans and newcomers.</p>
+<b></b>
             </div>
         </section>
+
+
+
+
+            animation: textFadeUp 1s ease-out forwards;
+             animation: fadeIn 1.2s ease forwards;
+    animation-delay: 0.5s;
+     animation: fadeIn 1.2s ease forwards;
+
+
+
+     @keyframes textFadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}

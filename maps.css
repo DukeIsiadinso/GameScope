@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    background-color: black;
+    height: 150px;
+    display: flex;
+    justify-content:space-between;
+    font-weight: 200px;
+    padding: 3em;
+}
+
+nav a{
+    text-decoration: none;
+    color: orangered;
+    padding-left: 1.5em;
+}
+nav a:hover{
+    color: white;
+}
+nav li{
+    display: flex;
+    height: 20px;
+}
+nav {
+    animation: navSlide 1s ease-out forwards;
+}
+
+body{
+    background-color: orange;
+}
+
+.title{
+    text-align: center;
+    font: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+}
+
+.logo-image img{
+    border-radius: 3em;
+    height: 99px;
+}
+
+@keyframes navSlide {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+

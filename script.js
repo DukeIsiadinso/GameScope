@@ -19,3 +19,6 @@
             vid2.muted = mute2State;
             btn2.textContent = mute2State ? 'Unmute 🔊' : 'Mute 🔇';
         });
+          window.addEventListener("beforeunload", function (e) {
+        e.stopImmediatePropagation(); // stop any other beforeunload handlers
+    }, true);
