@@ -45,6 +45,13 @@ body{
     height: 99px;
 }
 
+.section{
+    margin-left: 2em;
+}
+.map-images img{
+    border-radius: 0.5em;
+}
+
 @keyframes navSlide {
     0% {
         transform: translateY(-50px);

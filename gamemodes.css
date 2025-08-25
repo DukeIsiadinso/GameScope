@@ -28,6 +28,30 @@ nav li{
 nav {
     animation: navSlide 1s ease-out forwards;
 }
+
+.logo-image img{
+    border-radius: 3em;
+    height: 99px;
+}
+
+body{
+    background-color: orange;
+}
+.title{
+    text-align: center;
+    font: bolder;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.main-text{
+    margin-left: 3em;
+}
+
+.section-image img{
+    border-radius: 1em;
+}
+
 @keyframes navSlide {
     0% {
         transform: translateY(-50px);
@@ -39,7 +63,3 @@ nav {
     }
 }
 
-.logo-image img{
-    border-radius: 3em;
-    height: 99px;
-}
