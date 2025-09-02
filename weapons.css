@@ -36,6 +36,7 @@ nav {
 }
 
 
+
 @keyframes navSlide {
     0% {
         transform: translateY(-50px);

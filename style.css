@@ -7,7 +7,7 @@
 
 nav{
     background-color: black;
-    height: 218px;
+    height: 160px;
     display: flex;
     justify-content:space-between;
     font-weight: 200px;
@@ -30,6 +30,8 @@ nav ul li a{
     display: block;
     text-decoration: none;
 }
+
+
 
 .dropdown-content {
     display: none;
